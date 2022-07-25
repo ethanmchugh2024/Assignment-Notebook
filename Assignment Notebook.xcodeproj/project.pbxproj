@@ -11,6 +11,8 @@
 		C280F05C288F0DAA00894B29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280F05B288F0DAA00894B29 /* ContentView.swift */; };
 		C280F05E288F0DAB00894B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C280F05D288F0DAB00894B29 /* Assets.xcassets */; };
 		C280F061288F0DAB00894B29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C280F060288F0DAB00894B29 /* Preview Assets.xcassets */; };
+		C280F068288F129000894B29 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280F067288F129000894B29 /* AssignmentList.swift */; };
+		C280F06A288F145C00894B29 /* AddAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280F069288F145C00894B29 /* AddAssignmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C280F05B288F0DAA00894B29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C280F05D288F0DAB00894B29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C280F060288F0DAB00894B29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C280F067288F129000894B29 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
+		C280F069288F145C00894B29 /* AddAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C280F059288F0DAA00894B29 /* Assignment_NotebookApp.swift */,
 				C280F05B288F0DAA00894B29 /* ContentView.swift */,
+				C280F069288F145C00894B29 /* AddAssignmentView.swift */,
+				C280F067288F129000894B29 /* AssignmentList.swift */,
 				C280F05D288F0DAB00894B29 /* Assets.xcassets */,
 				C280F05F288F0DAB00894B29 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C280F068288F129000894B29 /* AssignmentList.swift in Sources */,
 				C280F05C288F0DAA00894B29 /* ContentView.swift in Sources */,
 				C280F05A288F0DAA00894B29 /* Assignment_NotebookApp.swift in Sources */,
+				C280F06A288F145C00894B29 /* AddAssignmentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
